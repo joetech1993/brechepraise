@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paramètres</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="settings-container">
+    <h1>Paramètres</h1>
+    
+    <label for="bg-color">Couleur de Fond :</label>
+    <input type="color" id="bg-color" name="bg-color" onchange="changeBackgroundColor()">
+    
+    <label for="text-color">Couleur du Texte :</label>
+    <input type="color" id="text-color" name="text-color" onchange="changeTextColor()">
+    
+    <button onclick="navigateTo('index.html')">Retour à l'accueil</button>
+  </div>
+
+    <!-- Bouton de menu flottant -->
+    <div class="floating-menu">
+        <button onclick="navigateTo('index.html')" class="home-button">
+        <i class="icon-home">🏠</i>
+        </button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
