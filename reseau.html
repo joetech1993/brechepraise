@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours Textuels</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="content-container">
+    <h1>Resumé</h1>
+    <p>Choisissez un des resumés:</p>
+
+    <div class="grid-container">
+      <div class="grid-item" onclick="navigateTo('resume-grace.html')">
+        <div class="icon-bg"><i class="icon">📗</i></div>
+        <p class="grid-text">Grâce</p>
+      </div>
+      <div class="grid-item" onclick="navigateTo('resume-foi.html')">
+        <div class="icon-bg"><i class="icon">📘</i></div>
+        <p class="grid-text">Foi</p>
+      </div>
+      <div class="grid-item" onclick="navigateTo('resume-foi.html')">
+        <div class="icon-bg"><i class="icon">📙</i></div>
+        <p class="grid-text"> Prière</p>
+      </div>
+      <div class="grid-item" onclick="navigateTo('resume-foi.html')">
+        <div class="icon-bg"><i class="icon">📘</i></div>
+        <p class="grid-text">Vendredi le ../../....</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bouton de menu flottant -->
+    <div class="floating-menu">
+        <button onclick="navigateTo('index.html')" class="home-button">
+        <i class="icon-home">🏠</i>
+        </button>
+    </div>
+
+  <script src="script.js"></script>
+  <script>applyPreferences();</script>
+</body>
+</html>
