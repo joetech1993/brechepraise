@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours Audio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="content-container">
+    <h1>Cours Audio</h1>
+    <p class="grid-text">Choisissez soit Apprendre ou Suivre un enseignement :</p>
+
+    <div class="grid-container">
+      <div class="grid-item" onclick="navigateTo('index_a.html')"">
+        <div class="icon-bg"><i class="icon">🎶</i></div>
+        <p class="grid-text">Apprendre par QUIZ</p>
+      </div>
+      <div class="grid-item" onclick="navigateTo('nouveau_converti.html')"">
+        <div class="icon-bg"><i class="icon">🎶</i></div>
+        <p class="grid-text">Suivre enseignement</p>
+      </div>
+    </div>
+
+    <div id="audio-section" class="content-section hidden">
+      <h2 id="audio-title"></h2>
+      <audio controls id="audio-player">
+        <source src="" type="audio/mp3">
+        Votre navigateur ne supporte pas la lecture audio.
+      </audio>
+      <button onclick="hideAudio()">Retour</button>
+    </div>
+  </div>
+
+      <!-- Bouton de menu flottant -->
+      <div class="floating-menu">
+        <button onclick="navigateTo('index.html')" class="home-button">
+        <i class="icon-home">🏠</i>
+        </button>
+    </div>
+
+  <script src="script.js"></script>
+  <script>applyPreferences();</script>
+</body>
+</html>
