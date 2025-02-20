@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Brèche veillée</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--loader-->
+    <div id="pre-loader"></div>
+    <!--loader-->
+
+  <div class="welcome-container">
+    <h1>BIENVENU A NOS PROGRAMMES ET ENSEIGNEMENTS BRECHE</h1>
+    <p>Choisissez une section pour commencer :</p>
+    
+    <!-- Exemple dans index.html -->
+    <div class="grid-container">
+        <div class="grid-item" onclick="navigateTo('contenu.html')">
+            <div class="icon-bg"><i class="icon">📖</i></div>
+            <p class="grid-text">Enseignement Textuels</p>
+        </div>
+        <div class="grid-item" onclick="navigateTo('audio.html')">
+            <div class="icon-bg"><i class="icon">🎧</i></div>
+            <p class="grid-text">Enseignement Audio</p>
+        </div>
+        <div class="grid-item" onclick="navigateTo('video.html')">
+            <div class="icon-bg"><i class="icon">🎬</i></div>
+            <p class="grid-text">Enseignement Vidéo</p>
+        </div>
+        <div class="grid-item" onclick="navigateTo('reseau.html')">
+            <div class="icon-bg"><i class="icon">📘</i></div>
+            <p class="grid-text">veillée résumée de samedi</p>
+         </div>
+    </div>
+  
+    <button onclick="navigateTo('nouveau_converti_espace.html')" class="settings-button">ESPACE NOUVEAU CONVERTI</button>
+    <button onclick="navigateTo('index_calandrier.html')" class="settings-button"> <img src="2025_b.png" height="10px"></button>
+
+    <!--<button onclick="navigateTo('index.html')" class="home-button">
+      <i class="icon-home">🏠</i>
+      </button>
+  </div>-->
+  <!-- Bouton de menu flottant -->
+    <div class="floating-menu">
+        <button onclick="navigateTo('index.html')" class="home-button">
+        <i class="icon-home">🏠</i>
+        </button>
+    </div>
+    
+    <div class="parametre-menu">
+        <button onclick="navigateTo('parametres.html')" class="home-button">
+        <i class="icon-home">⚙️</i>
+        </button>
+    </div>
+
+  <script src="script.js"></script>
+  <!--script loader-->
+  <script>
+    var loader = document.getElementById("pre-loader");
+    window.addEventListener("load", function(){
+      setTimeout(function(){
+        loader.style.display = "none";
+      }, 1500);
+    });
+  </script>
+  <!--script loader-->
+</body>
+</html>
