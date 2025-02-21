@@ -12,13 +12,13 @@ function navigateTo(page) {
         title: "La Foi",
         text: "Comprendre la foi à travers les histoires bibliques."
       },
-      /*miracles: {
-        title: "Les Miracles de Jésus",
-        text: "Les miracles accomplis par Jésus et leur signification."
-      },
         croyance: {
         title: "Croire en Dieu",
         text: "Croire en Dieu fait de nous enfants de Dieu."
+      },
+      /*miracles: {
+        title: "Les Miracles de Jésus",
+        text: "Les miracles accomplis par Jésus et leur signification."
       },
         colere: {
         title: "La colere",
