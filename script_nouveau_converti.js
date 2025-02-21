@@ -7,7 +7,6 @@ const tracks = [
     { type: 'video', title: 'A son image (Partie 1)', src: 'ajr_1.mp4', thumbnail: 'video.jpg' },
     { type: 'video', title: 'A son image (Partie 2)', src: 'ajr_2.mp4', thumbnail: 'video.jpg' },
     { type: 'audio', title: 'Amour de Dieu', src: 'a.MP3', thumbnail: 'music.jpg' },
-    { type: 'audio', title: 'Combat', src: 'b.MP3', thumbnail: 'music.jpg' },
     { type: 'audio', title: 'Croire en Dieu', src: 'croire.mp3', thumbnail: 'music.jpg' },
     { type: 'audio', title: 'La colère', src: 'colère.mp3', thumbnail: 'music.jpg' },
   ];
