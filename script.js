@@ -46,8 +46,8 @@ function navigateTo(page) {
   function showAudio(theme) {
     const audioData = {
       creation: "a.MP3",
-      foi: "b.MP3",
-      /*miracles: "c.MP3",
+      /*foi: "b.MP3",
+      miracles: "c.MP3",
       croyance: "croire.mp3",
       colere: "colère.mp3"*/
     };
