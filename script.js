@@ -19,11 +19,11 @@ function navigateTo(page) {
       /*miracles: {
         title: "Les Miracles de Jésus",
         text: "Les miracles accomplis par Jésus et leur signification."
-      },
-        colere: {
-        title: "La colere",
-        text: "La colère et ses conséquences."
       },*/
+        tenter: {
+        title: "La tentation",
+        text: "Eviter la tentation."
+      },
         createur: {
         title: "Le createur",
         text: "Le créateur a fait toute chose"
@@ -46,9 +46,9 @@ function navigateTo(page) {
   function showAudio(theme) {
     const audioData = {
       creation: "a.MP3",
-      croyance: "croire.mp3"
-      /*foi: "b.MP3",
-      miracles: "c.MP3",
+      croyance: "croire.mp3",
+      tenter: "tenter.MP3"
+      /*miracles: "c.MP3",
       croyance: "croire.mp3",
       colere: "colère.mp3"*/
     };
