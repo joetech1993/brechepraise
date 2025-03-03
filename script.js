@@ -47,7 +47,7 @@ function navigateTo(page) {
     const audioData = {
       creation: "a.MP3",
       croyance: "croire.mp3",
-      tenter: "tente.MP3"
+      tenter: "tente.mp3"
       /*miracles: "c.MP3",
       croyance: "croire.mp3",
       colere: "colère.mp3"*/
