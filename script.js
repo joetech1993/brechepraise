@@ -48,7 +48,7 @@ function navigateTo(page) {
       creation: "a.MP3",
       croyance: "croire.mp3",
       tenter: "tente.mp3",
-      Foi_a: "c.MP3"
+      Foi_a: "foi_breche.mp3"
       /*croyance: "croire.mp3",
       colere: "colère.mp3"*/
     };
