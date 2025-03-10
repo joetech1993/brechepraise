@@ -16,10 +16,10 @@ function navigateTo(page) {
         title: "Croire en Dieu",
         text: "Croire en Dieu fait de nous enfants de Dieu."
       },
-      /*miracles: {
-        title: "Les Miracles de Jésus",
-        text: "Les miracles accomplis par Jésus et leur signification."
-      },*/
+      Foi_a: {
+        title: "La foi",
+        text: "La foi une nécessité."
+      },
         tenter: {
         title: "La tentation",
         text: "Eviter la tentation."
@@ -47,9 +47,9 @@ function navigateTo(page) {
     const audioData = {
       creation: "a.MP3",
       croyance: "croire.mp3",
-      tenter: "tente.mp3"
-      /*miracles: "c.MP3",
-      croyance: "croire.mp3",
+      tenter: "tente.mp3",
+      Foi_a: "c.MP3"
+      /*croyance: "croire.mp3",
       colere: "colère.mp3"*/
     };
     
