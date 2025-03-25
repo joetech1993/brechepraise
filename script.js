@@ -31,7 +31,12 @@ function navigateTo(page) {
         parole: {
         title: "La parole",
         text: "La parole est important pour un chrétien"
+      },
+        audace: {
+        title: "L'audace",
+        text: L'audace est nécessaire dans la vie chrétienne"
       }
+
     };
     
     document.getElementById("content-title").textContent = contentData[theme].title;
@@ -48,9 +53,9 @@ function navigateTo(page) {
       creation: "a.MP3",
       croyance: "croire.mp3",
       tenter: "tente.mp3",
-      Foi_a: "foi_breche.mp3"
-      /*croyance: "croire.mp3",
-      colere: "colère.mp3"*/
+      Foi_a: "foi_breche.mp3",
+      audace: "audace.mp3"
+      /*colere: "colère.mp3"*/
     };
     
     document.getElementById("audio-player").src = audioData[theme];
