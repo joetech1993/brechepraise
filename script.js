@@ -34,7 +34,7 @@ function navigateTo(page) {
       },
         audace: {
         title: "L'audace",
-        text: L'audace est nécessaire dans la vie chrétienne"
+        text: "L'audace est nécessaire dans la vie chrétienne"
       }
 
     };
